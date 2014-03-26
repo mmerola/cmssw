@@ -1,0 +1,17 @@
+/JetEnergyShift_cfi.py/1.1/Tue Sep 28 19:46:44 2010//TV00-05-29-01
+/PatBasicAnalyzer_cfi.py/1.3/Sat Mar  6 14:31:05 2010//TV00-05-29-01
+/PatElectronAnalyzer_cfi.py/1.3/Thu Jun 11 16:06:47 2009//TV00-05-29-01
+/PatJetAnalyzer_cfi.py/1.3/Wed Nov  3 21:21:25 2010//TV00-05-29-01
+/PatTopSelectionAnalyzer_cfi.py/1.2/Tue Sep 14 13:32:29 2010//TV00-05-29-01
+/PatZToMuMuAnalyzer_cfi.py/1.1/Sun Sep 26 21:05:42 2010//TV00-05-29-01
+/customizedCOC_cff.py/1.2/Tue Dec  6 15:47:50 2011//TV00-05-29-01
+/customizedSelection_cff.py/1.1/Mon Dec  5 17:49:59 2011//TV00-05-29-01
+/mcMatch_cfi.py/1.8/Sat Apr 17 18:57:58 2010//TV00-05-29-01
+/patJPsiProducer_cfi.py/1.2/Tue Feb 16 17:07:31 2010//TV00-05-29-01
+/samplesCERN_cff.py/1.10/Thu Sep 29 15:53:19 2011//TV00-05-29-01
+/samplesDESY_cff.py/1.8/Fri Dec 10 15:33:32 2010//TV00-05-29-01
+/samplesFNAL_cff.py/1.5/Thu Sep 29 15:53:19 2011//TV00-05-29-01
+/strippedPatTuple_cff.py/1.1/Mon Dec  5 02:58:23 2011//TV00-05-29-01
+/tagAndProbeAnalysis_cff.py/1.2/Thu Jun 11 16:06:47 2009//TV00-05-29-01
+/topObjectSelection_cff.py/1.2/Wed Sep 29 11:21:44 2010//TV00-05-29-01
+D

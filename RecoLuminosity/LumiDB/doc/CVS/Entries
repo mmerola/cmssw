@@ -1,0 +1,27 @@
+/ReadMe/1.5/Tue Mar  2 17:50:30 2010//THEAD
+/afterglowtable.sql/1.4/Wed Feb 22 18:05:25 2012//THEAD
+/computestatistics.sql/1.2/Tue Mar  6 10:17:23 2012//THEAD
+/fillschemetables.sql/1.7/Thu Jul 12 09:37:50 2012//THEAD
+/hflumitables.sql/1.7/Thu Jul 12 09:37:50 2012//THEAD
+/hlttables.sql/1.3/Mon Mar 26 14:35:51 2012//THEAD
+/initializeHFtag.sql/1.2/Thu Jul 12 09:37:51 2012//THEAD
+/initializePIXELtag.sql/1.2/Thu Jul 12 09:37:51 2012//THEAD
+/intglumitables.sql/1.4/Thu Jul 12 09:37:51 2012//THEAD
+/lumidb2schema.sql/1.2/Mon Apr 16 15:40:32 2012//THEAD
+/lumidb2schema.txt/1.14/Tue Dec 18 09:51:30 2012//THEAD
+/lumidbschema.txt/1.31/Mon Dec  3 15:11:07 2012//THEAD
+/luminormstables.sql/1.4/Thu Jul 12 09:37:51 2012//THEAD
+/norm_HFV2.cfg/1.2/Thu Jul 12 09:37:51 2012//THEAD
+/norm_HFV2a.cfg/1.3/Thu Oct 25 08:24:43 2012//THEAD
+/norm_HFV2b.cfg/1.2/Thu Jul 12 09:37:51 2012//THEAD
+/norm_HFV2c.cfg/1.2/Thu Oct 25 08:39:36 2012//THEAD
+/norm_PIXELV1.cfg/1.2/Thu Jul 12 09:37:51 2012//THEAD
+/patchbx.sql/1.1/Thu Jul 12 09:37:51 2012//THEAD
+/pixellumitables.sql/1.4/Mon Mar 26 14:35:52 2012//THEAD
+/qqs.sql/1.3/Tue Jul 13 15:11:55 2010//THEAD
+/revisiontables.sql/1.3/Mon Mar 26 14:35:52 2012//THEAD
+/runsummarytables.sql/1.3/Mon Mar 26 14:35:52 2012//THEAD
+/tagtables.sql/1.2/Thu Jul 12 09:37:51 2012//THEAD
+/trghltmaptables.sql/1.3/Mon Mar 26 14:35:52 2012//THEAD
+/trgtables.sql/1.3/Mon Mar 26 14:35:52 2012//THEAD
+D

@@ -1,0 +1,1260 @@
+********************************************************************************
+* Fri Feb  7 09:41:06 2014 UTC
+* lumitype: HF , datatag: v12 , normtag: HFV2c , worktag: n/a
+* 
+* by:
+* /afs/cern.ch/work/m/mmerola/CMSSW_4_4_5/bin/slc5_amd64_gcc434/lumiCalc2.py
+* 
+* update: NONE
+********************************************************************************
+[WARNING] selected run/ls 163869 123 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 176201 656 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165970 335 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 172208 199 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 172286 216 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 178708 374 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166438 866 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166514 464 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 172778 97 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 172799 367 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 170759 377 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166699 912 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 172868 1970 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 170876 518 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166784 365 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 172952 1562 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166839 302 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166842 170 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167754 103 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166860 21 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167078 174 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 162811 340 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 166911 104 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 162909 290 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167043 235 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 173198 823 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 171156 692 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167102 430 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167103 94 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163046 238 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 173380 217 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 173406 286 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 161119 210 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 108 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 109 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 110 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 111 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 112 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 113 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 114 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 115 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 116 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 117 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 118 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 119 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 120 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 121 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 122 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 123 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 124 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 125 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 126 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 127 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 128 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 129 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 130 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 131 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 132 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 133 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 134 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 135 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 136 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 137 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 138 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 139 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 140 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 141 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 142 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 143 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 144 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 145 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 146 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 147 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 148 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 149 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 150 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 151 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 152 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 153 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 154 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 155 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 156 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 157 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 158 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 159 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 160 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 161 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 162 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 163 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 164 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 165 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 166 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 167 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 168 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 169 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 170 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 171 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 172 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 173 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 174 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 175 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 176 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 177 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 178 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 179 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 180 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 181 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 182 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 183 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 184 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 185 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 186 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 187 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 188 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 189 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 190 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 191 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 192 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 193 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 194 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 195 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 196 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 197 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 198 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 199 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 200 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 201 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 202 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 203 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 204 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 205 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 206 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 207 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 208 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 209 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 210 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 211 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 212 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 213 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 214 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 215 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 216 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 217 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 218 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 219 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 220 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 221 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 222 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 223 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 224 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 225 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 226 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 227 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 228 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 229 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 230 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 231 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 232 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 233 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 234 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 235 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 236 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 237 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 238 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 239 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 240 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 241 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 242 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 243 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 244 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 245 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 246 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 247 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 248 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 249 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 250 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 251 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 252 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 253 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 254 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 255 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 256 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 257 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 258 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 259 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 260 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 261 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 262 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 263 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 264 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 265 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 266 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 267 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 268 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 269 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 270 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 271 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 272 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 273 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 274 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 275 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 276 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 277 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 278 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 279 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 280 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 281 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 282 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 283 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 284 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 285 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 286 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 287 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 288 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 289 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 290 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 291 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 292 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 293 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 294 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 295 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 296 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 297 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 298 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 299 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 300 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 301 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 302 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 303 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 304 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 305 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 306 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 307 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 308 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 309 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 310 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 311 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 312 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 313 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 314 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 315 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 316 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 317 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 318 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 319 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 320 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 321 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 322 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 323 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 324 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 325 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 326 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 327 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 328 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 329 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 330 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 331 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 332 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 333 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 334 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 335 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 336 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 337 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 338 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 339 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 340 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 341 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 342 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 343 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 344 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 345 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 346 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 347 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 348 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 349 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 350 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 351 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 352 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 353 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 354 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 355 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 356 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 357 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 358 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 359 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 360 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 361 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 362 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 363 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 364 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 365 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 366 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 367 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 368 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 369 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 370 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 371 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 372 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 373 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 374 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 375 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 376 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 377 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 378 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 379 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 380 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 381 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 382 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 383 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 384 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 385 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 386 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 387 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 388 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 389 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 390 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 391 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 392 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 393 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 394 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 395 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 396 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 397 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 398 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 399 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 400 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 401 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 402 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 403 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 404 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 405 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 406 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 407 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 408 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 409 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 410 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 411 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 412 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 413 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 414 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 415 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 416 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 417 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 418 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 419 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 420 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 421 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 422 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 423 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 424 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 425 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 426 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 427 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 428 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 429 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 430 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 431 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 432 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 433 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 434 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 435 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 436 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 437 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 438 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 439 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165103 440 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163252 137 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 171446 864 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 171578 974 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165487 151 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165506 170 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165514 567 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 283 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 284 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 285 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 286 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 287 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 288 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 289 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 290 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 291 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163475 292 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 204 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 205 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 206 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 207 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 208 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 209 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 210 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163476 211 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 49 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 50 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 51 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 52 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 53 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 54 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 55 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 56 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 57 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 58 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 59 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 60 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 61 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 62 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163478 63 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163483 57 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165567 631 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 165570 946 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167673 447 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167676 450 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163582 22 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167740 173 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163817 966 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167746 384 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163658 3 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 62 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 63 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 64 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 65 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 66 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 67 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 68 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 69 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 70 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 71 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163660 72 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163661 11 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163661 12 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163661 13 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163661 14 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163661 15 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163663 245 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163663 246 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167551 471 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 167786 176 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 171897 542 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 163758 591 not in lumiDB or has no HLT data
+[WARNING] selected run/ls 178098 707 not in lumiDB or has no HLT data
+ ==  = 
+|    Run:Fill |             SelectedLS |     Recorded |         HLTpath(Presc) |           L1bit(Presc) |    Effective |
+------------------------------------------------------------------------------------------------------------------------
+| 160431:1615 |               [19-218] |   7.367(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   7.367(/nb) |
+| 160577:1622 |              [254-306] |   1.631(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.631(/nb) |
+| 160578:1622 |      [6-53], [274-400] |   4.952(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   4.952(/nb) |
+| 160871:1636 |               [68-208] | 106.351(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 106.351(/nb) |
+| 160872:1636 |        [1-9], [25-35], |  23.976(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  23.976(/nb) |
+|             |                [38-55] |              |                        |                        |              |
+| 160873:1636 |                [1-147] | 103.028(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 103.028(/nb) |
+| 160874:1636 |       [1-51], [97-113] |  42.569(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  42.569(/nb) |
+| 160939:1639 |                [1-123] | 151.502(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 151.502(/nb) |
+| 160940:1639 |                 [1-79] |  92.457(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  92.457(/nb) |
+| 160942:1639 |                 [1-12] |  12.350(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  12.350(/nb) |
+| 160943:1639 |                 [1-54] |  60.206(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  60.206(/nb) |
+| 160955:1640 |    [1-130], [133-138], | 422.144(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 422.144(/nb) |
+|             |  [140-151], [153-154], |              |                        |                        |              |
+|             |  [156-172], [175-201], |              |                        |                        |              |
+|             |              [204-206] |              |                        |                        |              |
+| 160956:1640 |                 [2-65] | 202.140(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 202.140(/nb) |
+| 160957:1640 |                [1-953] |   2.542(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   2.542(/pb) |
+| 160998:1642 |                [2-252] | 688.920(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 688.920(/nb) |
+| 161008:1642 |                 [2-77] | 195.647(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 195.647(/nb) |
+| 161016:1642 |                [2-300] | 678.501(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 678.501(/nb) |
+| 161103:1644 |                [2-100] | 389.206(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 389.206(/nb) |
+| 161106:1644 |                 [2-26] |  94.509(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  94.509(/nb) |
+| 161107:1644 |                 [2-29] | 103.127(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 103.127(/nb) |
+| 161113:1644 |                 [2-24] |  81.320(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  81.320(/nb) |
+| 161116:1644 |                 [2-11] |  35.124(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  35.124(/nb) |
+| 161117:1644 |                 [2-24] |  79.255(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  79.255(/nb) |
+| 161119:1644 |         [1-1], [7-58], | 530.645(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 530.645(/nb) |
+|             |   [69-108], [115-141], |              |                        |                        |              |
+|             |   [145-173], [179-209] |              |                        |                        |              |
+| 161156:1644 |                 [1-14] |  36.220(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  36.220(/nb) |
+| 161176:1644 |                 [1-31] |  85.544(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  85.544(/nb) |
+| 161217:1645 |               [37-753] |   3.561(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   3.561(/pb) |
+| 161222:1645 |                 [1-97] | 407.577(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 407.577(/nb) |
+| 161223:1645 |                [1-375] |   1.453(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.453(/pb) |
+| 161224:1645 |                  [1-2] |   3.887(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   3.887(/nb) |
+| 161233:1646 |                [33-33] |   2.923(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   2.923(/nb) |
+| 161310:1647 |               [39-116] | 446.394(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 446.394(/nb) |
+| 161311:1647 |     [1-554], [559-649] |   3.159(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   3.159(/pb) |
+| 161312:1647 |    [1-826], [835-1027] |   3.698(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   3.698(/pb) |
+| 162762:1711 |                [1-102] | 385.218(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 385.218(/nb) |
+| 162765:1711 |                 [1-10] |  34.316(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  34.316(/nb) |
+| 162803:1712 |               [60-139] | 435.971(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 435.971(/nb) |
+| 162808:1712 |                 [1-51] | 271.131(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 271.131(/nb) |
+| 162811:1712 |                [1-339] |   1.697(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.697(/pb) |
+| 162822:1713 |               [73-307] |   1.242(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.242(/pb) |
+| 162825:1713 |                [1-184] | 892.357(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 892.357(/nb) |
+| 162826:1713 |                 [1-24] | 106.760(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 106.760(/nb) |
+| 162828:1713 |                 [1-85] | 362.809(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 362.809(/nb) |
+| 162909:1716 |      [54-79], [82-289] |   1.827(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.827(/pb) |
+| 163046:1721 |     [1-133], [135-237] |   1.636(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.636(/pb) |
+| 163069:1722 |    [73-452], [468-633] |   4.006(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   4.006(/pb) |
+| 163071:1722 |                [1-161] |   1.061(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.061(/pb) |
+| 163078:1722 |                 [1-23] | 139.528(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 139.528(/nb) |
+| 163232:1727 |   [110-113], [116-149] | 258.613(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 258.613(/nb) |
+| 163233:1727 |                [1-283] |   1.847(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.847(/pb) |
+| 163234:1727 |                 [1-66] | 400.174(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 400.174(/nb) |
+| 163235:1727 |                [1-461] |   2.649(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   2.649(/pb) |
+| 163237:1727 |                [1-213] |   1.113(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   1.113(/pb) |
+| 163238:1727 |                 [9-15] |  21.565(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |  21.565(/nb) |
+| 163252:1728 |               [60-136] | 691.907(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 691.907(/nb) |
+| 163255:1728 |    [1-359], [412-844], |   7.044(/pb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) |   7.044(/pb) |
+|             |   [846-846], [848-977] |              |                        |                        |              |
+| 163261:1728 |        [1-3], [10-126] | 789.989(/nb) |         HLT_Mu24_v1(1) |       L1_SingleMu12(1) | 789.989(/nb) |
+| 163270:1729 |       [1-76], [79-94], |   8.194(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   8.194(/pb) |
+|             |   [99-475], [479-527], |              |                        |                        |              |
+|             |   [529-685], [695-928] |              |                        |                        |              |
+| 163286:1730 |              [112-401] |   1.932(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.932(/pb) |
+| 163289:1730 |                [1-388] |   2.261(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.261(/pb) |
+| 163296:1731 |    [59-230], [232-585] |   5.251(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   5.251(/pb) |
+| 163297:1731 |                [1-219] |   1.957(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.957(/pb) |
+| 163300:1731 |                [1-616] |   4.999(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   4.999(/pb) |
+| 163301:1731 |                [1-192] |   1.422(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.422(/pb) |
+| 163302:1731 |                [1-190] |   1.362(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.362(/pb) |
+| 163332:1732 |   [43-118], [224-264], |   6.735(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   6.735(/pb) |
+|             |  [266-599], [601-639], |              |                        |                        |              |
+|             |              [641-801] |              |                        |                        |              |
+| 163333:1732 |                [1-106] |   1.005(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.005(/pb) |
+| 163334:1732 |       [1-35], [37-37], |   3.869(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.869(/pb) |
+|             |              [156-556] |              |                        |                        |              |
+| 163337:1732 |      [1-18], [27-201], |   3.616(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.616(/pb) |
+|             |   [203-426], [434-461] |              |                        |                        |              |
+| 163338:1732 |                [1-164] |   1.255(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.255(/pb) |
+| 163339:1732 |                [1-172] |   1.282(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.282(/pb) |
+| 163340:1732 |                [1-488] |   3.392(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.392(/pb) |
+| 163358:1733 |                [39-63] | 216.975(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 216.975(/nb) |
+| 163369:1735 |                 [1-94] |   1.015(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.015(/pb) |
+| 163370:1735 |                [1-147] |   1.518(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.518(/pb) |
+| 163371:1735 |     [1-107], [148-356] |   3.006(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.006(/pb) |
+| 163372:1735 |                 [1-52] | 463.281(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 463.281(/nb) |
+| 163374:1735 |     [1-599], [603-863] |   6.871(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   6.871(/pb) |
+| 163375:1735 |                 [1-10] |  67.073(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |  67.073(/nb) |
+| 163376:1735 |       [1-20], [22-246] |   1.733(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.733(/pb) |
+| 163378:1735 |      [1-81], [89-179], |   3.760(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.760(/pb) |
+|             |   [181-272], [306-615] |              |                        |                        |              |
+| 163385:1736 |    [52-240], [244-405] |   3.261(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.261(/pb) |
+| 163387:1736 |                [1-256] |   2.119(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.119(/pb) |
+| 163402:1737 |   [37-250], [271-560], |   7.109(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   7.109(/pb) |
+|             |   [581-582], [586-801] |              |                        |                        |              |
+| 163475:1739 |               [30-282] |   2.905(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.905(/pb) |
+| 163476:1739 |       [1-94], [98-203] |   2.118(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.118(/pb) |
+| 163478:1739 |                 [1-48] | 476.657(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 476.657(/nb) |
+| 163479:1739 |                [1-175] |   1.732(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.732(/pb) |
+| 163480:1739 |      [1-92], [96-188], |   1.751(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.751(/pb) |
+|             |              [190-191] |              |                        |                        |              |
+| 163481:1739 |       [1-72], [74-77], | 671.951(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 671.951(/nb) |
+|             |                [79-79] |              |                        |                        |              |
+| 163482:1739 |                 [1-27] | 239.168(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 239.168(/nb) |
+| 163483:1739 |                 [1-56] | 387.134(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 387.134(/nb) |
+| 163582:1743 |                 [1-21] | 260.149(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 260.149(/nb) |
+| 163583:1743 |       [1-10], [12-63], |   2.927(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.927(/pb) |
+|             |     [65-92], [96-155], |              |                        |                        |              |
+|             |   [157-173], [175-205] |              |                        |                        |              |
+| 163584:1743 |                 [1-56] | 792.078(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 792.078(/nb) |
+| 163585:1743 |                 [1-32] | 450.814(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 450.814(/nb) |
+| 163586:1743 |                 [1-75] |   1.055(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.055(/pb) |
+| 163587:1743 |                 [1-52] | 712.691(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 712.691(/nb) |
+| 163588:1743 |        [1-8], [10-446] |   5.768(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   5.768(/pb) |
+| 163589:1743 |       [1-49], [51-160] |   1.930(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.930(/pb) |
+| 163596:1743 |                 [1-29] | 266.728(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 266.728(/nb) |
+| 163630:1744 |    [76-164], [176-185] |   1.312(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.312(/pb) |
+| 163655:1745 |                [15-23] | 136.970(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 136.970(/nb) |
+| 163657:1745 |                [1-140] |   2.197(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.197(/pb) |
+| 163658:1745 |                  [1-2] |   6.469(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   6.469(/nb) |
+| 163659:1745 |    [1-374], [376-650], |   9.735(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   9.735(/pb) |
+|             |              [652-705] |              |                        |                        |              |
+| 163660:1745 |                 [1-61] | 766.833(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 766.833(/nb) |
+| 163661:1745 |                 [1-10] | 116.328(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 116.328(/nb) |
+| 163662:1745 |                [1-154] |   1.870(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.870(/pb) |
+| 163663:1745 |     [1-106], [109-244] |   2.733(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.733(/pb) |
+| 163664:1745 |     [1-119], [121-178] |   1.922(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   1.922(/pb) |
+| 163668:1745 |      [1-53], [57-136], |   2.106(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.106(/pb) |
+|             |              [140-213] |              |                        |                        |              |
+| 163738:1748 |               [34-311] |   4.208(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   4.208(/pb) |
+| 163757:1749 |                 [1-40] | 589.049(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 589.049(/nb) |
+| 163758:1749 |      [1-17], [19-220], |   7.642(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   7.642(/pb) |
+|             |  [222-224], [236-276], |              |                        |                        |              |
+|             |  [283-374], [376-466], |              |                        |                        |              |
+|             |              [468-590] |              |                        |                        |              |
+| 163759:1749 |       [1-60], [62-72], |   5.962(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   5.962(/pb) |
+|             |   [74-456], [458-461], |              |                        |                        |              |
+|             |   [463-482], [504-510] |              |                        |                        |              |
+| 163760:1749 |     [1-162], [165-340] |   3.776(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.776(/pb) |
+| 163761:1749 |                [1-203] |   2.155(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   2.155(/pb) |
+| 163763:1749 |                 [1-79] | 808.312(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 808.312(/nb) |
+| 163765:1749 |                [1-321] |   3.047(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.047(/pb) |
+| 163795:1753 |      [10-34], [36-36], | 475.221(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 475.221(/nb) |
+|             |                [38-43] |              |                        |                        |              |
+| 163796:1753 |                [1-182] |   3.273(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |   3.273(/pb) |
+| 163817:1755 |   [50-140], [154-205], |  13.540(/pb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) |  13.540(/pb) |
+|             |  [216-295], [305-346], |              |                        |                        |              |
+|             |  [358-457], [561-603], |              |                        |                        |              |
+|             |              [618-965] |              |                        |                        |              |
+| 163869:1756 |               [79-122] | 732.075(/nb) |         HLT_Mu24_v2(1) |       L1_SingleMu12(1) | 732.075(/nb) |
+| 165088:1782 |              [107-266] |   4.067(/nb) |         HLT_Mu24_v3(1) |       L1_SingleMu12(1) |   4.067(/nb) |
+| 165098:1783 |  [124-187], [190-193], |  27.652(/nb) |         HLT_Mu24_v3(1) |       L1_SingleMu12(1) |  27.652(/nb) |
+|             |  [195-248], [250-254], |              |                        |                        |              |
+|             |  [256-331], [333-367], |              |                        |                        |              |
+|             |              [369-415] |              |                        |                        |              |
+| 165099:1783 |                [1-105] |   8.896(/nb) |         HLT_Mu24_v3(1) |       L1_SingleMu12(1) |   8.896(/nb) |
+| 165102:1783 |                [1-185] |  16.554(/nb) |      HLT_Mu24_v3(1,20) |       L1_SingleMu12(1) |  16.195(/nb) |
+| 165103:1783 |                [1-107] |  10.084(/nb) |         HLT_Mu24_v3(1) |       L1_SingleMu12(1) |  10.084(/nb) |
+| 165120:1785 |                [82-97] |  78.605(/nb) |         HLT_Mu24_v3(2) |       L1_SingleMu12(1) |  39.303(/nb) |
+| 165121:1785 |                [1-466] |   2.105(/pb) |       HLT_Mu24_v3(1,2) |       L1_SingleMu12(1) |   1.543(/pb) |
+| 165205:1787 |               [80-248] |   1.773(/pb) |         HLT_Mu24_v3(5) |       L1_SingleMu12(1) | 354.615(/nb) |
+| 165208:1787 |                [1-101] | 975.669(/nb) |         HLT_Mu24_v3(5) |       L1_SingleMu12(1) | 195.134(/nb) |
+| 165364:1795 |   [45-111], [114-147], |  19.026(/pb) |       HLT_Mu24_v3(5,7) |       L1_SingleMu12(1) |   2.818(/pb) |
+|             | [160-807], [809-1220], |              |                        |                        |              |
+|             |            [1260-1301] |              |                        |                        |              |
+| 165402:1796 |                 [1-28] | 433.238(/nb) |         HLT_Mu24_v3(7) |       L1_SingleMu12(1) |  61.891(/nb) |
+| 165415:1798 |     [58-85], [88-640], |  20.194(/pb) |       HLT_Mu24_v3(5,7) |       L1_SingleMu12(1) |   3.339(/pb) |
+|             |  [643-707], [712-777], |              |                        |                        |              |
+|             |            [780-1356], |              |                        |                        |              |
+|             |            [1360-1383] |              |                        |                        |              |
+| 165467:1799 |               [39-708] |  12.240(/pb) |      HLT_Mu24_v3(10,7) |       L1_SingleMu12(1) |   1.686(/pb) |
+| 165472:1799 |     [1-184], [186-882] |  13.433(/pb) |       HLT_Mu24_v3(5,7) |       L1_SingleMu12(1) |   2.245(/pb) |
+| 165486:1800 |               [37-102] |   1.466(/pb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) | 146.574(/nb) |
+| 165487:1800 |                [1-150] |   3.082(/pb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) | 308.219(/nb) |
+| 165506:1801 |               [54-169] |   1.990(/pb) |      HLT_Mu24_v3(10,7) |       L1_SingleMu12(1) | 281.211(/nb) |
+| 165514:1802 |   [72-244], [246-270], |  11.243(/pb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) |   1.124(/pb) |
+|             |   [283-560], [562-566] |              |                        |                        |              |
+| 165525:1803 |                 [1-31] | 589.972(/nb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) |  58.997(/nb) |
+| 165537:1803 |       [1-20], [22-295] |   5.034(/pb) |      HLT_Mu24_v3(10,7) |       L1_SingleMu12(1) | 710.929(/nb) |
+| 165548:1803 |    [1-363], [365-381], |   9.004(/pb) |         HLT_Mu24_v3(5) |       L1_SingleMu12(1) |   1.801(/pb) |
+|             |              [384-589] |              |                        |                        |              |
+| 165558:1803 |                 [1-62] | 845.825(/nb) |         HLT_Mu24_v3(5) |       L1_SingleMu12(1) | 169.165(/nb) |
+| 165567:1804 |   [54-109], [114-309], |  12.530(/pb) |      HLT_Mu24_v3(10,7) |       L1_SingleMu12(1) |   1.334(/pb) |
+|             |              [315-630] |              |                        |                        |              |
+| 165570:1804 |         [1-2], [5-83], |  16.933(/pb) |       HLT_Mu24_v3(5,7) |       L1_SingleMu12(1) |   2.657(/pb) |
+|             |   [88-207], [209-351], |              |                        |                        |              |
+|             |   [355-942], [944-945] |              |                        |                        |              |
+| 165617:1805 |     [26-52], [54-143], |   6.259(/pb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) | 625.943(/nb) |
+|             |              [145-288] |              |                        |                        |              |
+| 165620:1805 |                [14-19] | 132.771(/nb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) |  13.277(/nb) |
+| 165633:1806 |      [56-62], [64-64], |  10.130(/pb) |        HLT_Mu24_v3(10) |       L1_SingleMu12(1) |   1.013(/pb) |
+|             |   [66-129], [133-317], |              |                        |                        |              |
+|             |              [319-500] |              |                        |                        |              |
+| 165970:1809 |   [67-263], [266-329], |   6.740(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 224.662(/nb) |
+|             |              [331-334] |              |                        |                        |              |
+| 165993:1812 |  [71-873], [879-1660], |  33.296(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) |   1.112(/pb) |
+|             |            [1665-1697] |              |                        |                        |              |
+| 166011:1813 |        [1-81], [83-83] |   1.915(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  63.829(/nb) |
+| 166033:1815 |     [35-53], [59-330], |  30.655(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |   1.022(/pb) |
+|             |  [336-355], [360-444], |              |                        |                        |              |
+|             |  [450-606], [613-707], |              |                        |                        |              |
+|             |             [713-1233] |              |                        |                        |              |
+| 166034:1815 |    [1-109], [115-228], |   6.405(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 248.863(/nb) |
+|             |              [234-307] |              |                        |                        |              |
+| 166049:1816 |     [53-86], [88-236], |  16.788(/pb) |     HLT_Mu24_v3(45,30) |       L1_SingleMu12(1) | 558.576(/nb) |
+|             |              [242-674] |              |                        |                        |              |
+| 166149:1822 |                  [1-2] |   2.168(/nb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  72.280(/ub) |
+| 166150:1822 |      [1-99], [101-116] |   2.829(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  94.310(/nb) |
+| 166161:1823 |   [38-120], [122-123], |   2.150(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  71.672(/nb) |
+|             |              [126-126] |              |                        |                        |              |
+| 166163:1823 |        [1-12], [14-33] | 652.542(/nb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  21.751(/nb) |
+| 166164:1823 |        [1-32], [34-40] | 821.506(/nb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  27.384(/nb) |
+| 166346:1835 |    [48-210], [212-215] |   4.481(/pb) |        HLT_Mu24_v4(30) |       L1_SingleMu12(1) | 149.351(/nb) |
+| 166374:1836 |      [46-64], [66-188] |   3.894(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 129.796(/nb) |
+| 166380:1836 |    [1-367], [373-711], |  36.821(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) |   1.600(/pb) |
+|             |            [715-1400], |              |                        |                        |              |
+|             |            [1406-1809] |              |                        |                        |              |
+| 166408:1841 |   [67-283], [291-947], |  29.026(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 967.518(/nb) |
+|             |             [953-1236] |              |                        |                        |              |
+| 166429:1844 |                [33-89] |   1.458(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  48.588(/nb) |
+| 166438:1845 |     [32-85], [87-856], |  19.158(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 638.615(/nb) |
+|             |              [858-865] |              |                        |                        |              |
+| 166462:1846 |   [78-102], [108-317], |   9.811(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 327.031(/nb) |
+|             |              [323-526] |              |                        |                        |              |
+| 166486:1848 |      [54-75], [80-95], |   2.417(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  80.561(/nb) |
+|             |               [97-174] |              |                        |                        |              |
+| 166502:1851 |      [43-78], [83-109] |   1.492(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  49.733(/nb) |
+| 166512:1852 |   [42-430], [432-487], |  39.646(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |   1.322(/pb) |
+|             | [491-605], [611-1279], |              |                        |                        |              |
+|             |           [1281-1818], |              |                        |                        |              |
+|             |           [1821-1862], |              |                        |                        |              |
+|             |           [1868-1868], |              |                        |                        |              |
+|             |           [1870-1871], |              |                        |                        |              |
+|             |            [1873-1874] |              |                        |                        |              |
+| 166514:1852 |     [1-455], [460-463] |   7.643(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 379.540(/nb) |
+| 166530:1854 |                [43-63] | 481.760(/nb) |        HLT_Mu24_v3(45) |       L1_SingleMu12(1) |  10.706(/nb) |
+| 166554:1855 |   [46-218], [224-287], |  16.855(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 561.834(/nb) |
+|             |  [290-317], [320-595], |              |                        |                        |              |
+|             |  [597-730], [732-734], |              |                        |                        |              |
+|             |              [736-736] |              |                        |                        |              |
+| 166563:1855 |     [1-276], [492-748] |  11.083(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 369.449(/nb) |
+| 166565:1855 |    [1-147], [153-312], |  15.577(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 776.070(/nb) |
+|             |   [316-467], [469-898] |              |                        |                        |              |
+| 166699:1856 |   [55-234], [240-415], |  18.533(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 617.753(/nb) |
+|             |  [421-477], [483-677], |              |                        |                        |              |
+|             |              [681-911] |              |                        |                        |              |
+| 166701:1856 |      [1-13], [16-319], |  13.027(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 627.805(/nb) |
+|             |  [324-506], [513-551], |              |                        |                        |              |
+|             |  [557-672], [681-705], |              |                        |                        |              |
+|             |  [712-724], [731-757], |              |                        |                        |              |
+|             |   [764-777], [783-792] |              |                        |                        |              |
+| 166763:1859 |    [46-168], [174-650] |  14.042(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 468.071(/nb) |
+| 166781:1862 |   [41-111], [115-115], |   8.287(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 276.228(/nb) |
+|             |  [117-233], [236-253], |              |                        |                        |              |
+|             |              [255-382] |              |                        |                        |              |
+| 166782:1862 |                [1-569] |  12.439(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 414.630(/nb) |
+| 166784:1862 |    [1-114], [119-276], |   6.824(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 227.473(/nb) |
+|             |              [281-364] |              |                        |                        |              |
+| 166787:1862 |      [1-55], [60-127], |   6.331(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 313.731(/nb) |
+|             |              [132-364] |              |                        |                        |              |
+| 166839:1863 |   [43-173], [178-297], |   5.522(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 184.074(/nb) |
+|             |              [299-301] |              |                        |                        |              |
+| 166841:1863 |    [1-845], [851-876], |  20.966(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 698.857(/nb) |
+|             |  [882-977], [984-984], |              |                        |                        |              |
+|             |  [988-992], [998-1015] |              |                        |                        |              |
+| 166842:1863 |                [1-169] |   3.017(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 149.061(/nb) |
+| 166859:1864 |   [62-418], [421-421], |   9.047(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 301.581(/nb) |
+|             |              [423-423] |              |                        |                        |              |
+| 166860:1864 |                 [1-20] | 425.321(/nb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  14.177(/nb) |
+| 166861:1864 |          [1-6], [8-13] | 192.540(/nb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |   6.418(/nb) |
+| 166864:1864 |       [1-29], [31-77], |  10.123(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 395.543(/nb) |
+|             |    [79-99], [102-119], |              |                        |                        |              |
+|             |  [125-247], [249-307], |              |                        |                        |              |
+|             |  [311-365], [367-374], |              |                        |                        |              |
+|             |   [378-454], [478-537] |              |                        |                        |              |
+| 166888:1865 |     [56-90], [93-154], |  10.752(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 358.408(/nb) |
+|             |   [156-394], [398-470] |              |                        |                        |              |
+| 166889:1865 |       [1-73], [79-228] |   5.292(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 176.398(/nb) |
+| 166890:1865 |                [1-441] |   9.813(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 327.101(/nb) |
+| 166894:1865 |                [1-190] |   3.734(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 124.468(/nb) |
+| 166895:1865 |      [1-66], [72-597], |  10.788(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 498.702(/nb) |
+|             |              [599-603] |              |                        |                        |              |
+| 166911:1866 |      [58-76], [81-103] |   1.040(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |  34.670(/nb) |
+| 166922:1867 |      [1-39], [41-105], |  19.055(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 635.165(/nb) |
+|             |  [110-340], [345-418], |              |                        |                        |              |
+|             |  [423-747], [752-769], |              |                        |                        |              |
+|             |              [773-773] |              |                        |                        |              |
+| 166923:1867 |     [1-382], [389-470] |  10.046(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 334.878(/nb) |
+| 166946:1868 |      [41-72], [75-201] |   4.324(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 144.137(/nb) |
+| 166950:1868 |         [1-1], [8-31], |  30.957(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) |   1.032(/pb) |
+|             |   [36-210], [216-877], |              |                        |                        |              |
+|             | [883-950], [956-1012], |              |                        |                        |              |
+|             |           [1018-1321], |              |                        |                        |              |
+|             |           [1327-1345], |              |                        |                        |              |
+|             |            [1347-1438] |              |                        |                        |              |
+| 166960:1868 |     [1-137], [143-166] |   2.980(/pb) |     HLT_Mu24_v3(20,30) |       L1_SingleMu12(1) | 130.913(/nb) |
+| 166966:1868 |                [1-238] |   4.163(/pb) |        HLT_Mu24_v3(20) |       L1_SingleMu12(1) | 208.147(/nb) |
+| 166967:1868 |                [1-220] |   3.625(/pb) |        HLT_Mu24_v3(20) |       L1_SingleMu12(1) | 181.267(/nb) |
+| 167039:1871 |      [20-92], [98-228] |   5.236(/pb) |        HLT_Mu24_v3(40) |       L1_SingleMu12(1) | 130.912(/nb) |
+| 167041:1871 |    [1-336], [339-391], |  14.237(/pb) |     HLT_Mu24_v3(40,30) |       L1_SingleMu12(1) | 401.008(/nb) |
+|             |   [396-462], [467-663] |              |                        |                        |              |
+| 167043:1871 |     [1-125], [130-234] |   4.238(/pb) |        HLT_Mu24_v3(30) |       L1_SingleMu12(1) | 141.259(/nb) |
+| 167078:1873 |               [40-173] |   3.377(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) |  84.415(/nb) |
+| 167098:1875 |     [62-90], [92-162], |   8.715(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 217.868(/nb) |
+|             |   [167-406], [448-461] |              |                        |                        |              |
+| 167102:1875 |      [1-42], [48-233], |   8.385(/pb) |     HLT_Mu24_v5(85,30) |       L1_SingleMu12(1) | 277.970(/nb) |
+|             |   [235-317], [323-429] |              |                        |                        |              |
+| 167103:1875 |                 [1-93] |   1.697(/pb) |        HLT_Mu24_v5(30) |       L1_SingleMu12(1) |  56.566(/nb) |
+| 167151:1880 |                 [1-42] |   1.042(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) |  26.047(/nb) |
+| 167281:1883 |   [18-140], [146-315], |  13.925(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 348.129(/nb) |
+|             |              [317-593] |              |                        |                        |              |
+| 167282:1883 |                [1-441] |   8.871(/pb) |     HLT_Mu24_v5(40,30) |       L1_SingleMu12(1) | 289.347(/nb) |
+| 167284:1883 |    [1-315], [320-346], |  25.600(/pb) |     HLT_Mu24_v5(20,30) |       L1_SingleMu12(1) |   1.032(/pb) |
+|             |  [356-395], [399-474], |              |                        |                        |              |
+|             |            [476-1157], |              |                        |                        |              |
+|             |           [1160-1628], |              |                        |                        |              |
+|             |            [1633-1644] |              |                        |                        |              |
+| 167551:1889 |    [56-190], [196-470] |  11.528(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 288.211(/nb) |
+| 167673:1890 |  [210-236], [239-305], |   6.166(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 154.148(/nb) |
+|             |   [309-418], [423-446] |              |                        |                        |              |
+| 167674:1890 |                [1-345] |   8.594(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 214.859(/nb) |
+| 167675:1890 |    [1-129], [133-299], |  20.107(/pb) |     HLT_Mu24_v5(40,30) |       L1_SingleMu12(1) | 573.784(/nb) |
+|             |  [301-617], [690-707], |              |                        |                        |              |
+|             |  [710-712], [715-716], |              |                        |                        |              |
+|             |  [719-719], [721-725], |              |                        |                        |              |
+|             |  [740-741], [748-758], |              |                        |                        |              |
+|             |  [762-770], [774-787], |              |                        |                        |              |
+|             |  [793-797], [811-1062] |              |                        |                        |              |
+| 167676:1890 |     [1-278], [289-449] |   7.936(/pb) |        HLT_Mu24_v5(30) |       L1_SingleMu12(1) | 264.519(/nb) |
+| 167740:1893 |   [79-126], [132-168], |   2.307(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) |  57.675(/nb) |
+|             |              [170-172] |              |                        |                        |              |
+| 167746:1894 |               [56-383] |   8.830(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 220.748(/nb) |
+| 167754:1895 |               [62-102] |   1.052(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) |  26.297(/nb) |
+| 167784:1898 |                [51-67] | 453.334(/nb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) |  11.333(/nb) |
+| 167786:1898 |        [1-1], [11-75], |   4.199(/pb) |        HLT_Mu24_v5(40) |       L1_SingleMu12(1) | 104.983(/nb) |
+|             |               [81-175] |              |                        |                        |              |
+| 167807:1900 |   [60-159], [178-204], |  42.737(/pb) |     HLT_Mu24_v5(40,30) |       L1_SingleMu12(1) |   1.143(/pb) |
+|             |  [210-482], [484-558], |              |                        |                        |              |
+|             | [560-872], [878-1441], |              |                        |                        |              |
+|             |            [1444-1842] |              |                        |                        |              |
+| 167830:1900 |    [1-437], [442-587], |  21.320(/pb) |  HLT_Mu24_v5(10,20,30) |       L1_SingleMu12(1) |   1.656(/pb) |
+|             |  [590-828], [834-1242] |              |                        |                        |              |
+| 167898:1901 |  [108-619], [621-995], |  40.066(/pb) |  HLT_Mu24_v5(40,20,30) |       L1_SingleMu12(1) |   1.111(/pb) |
+|             |           [1001-1010], |              |                        |                        |              |
+|             |           [1013-1053], |              |                        |                        |              |
+|             |           [1057-1295], |              |                        |                        |              |
+|             |            [1298-1762] |              |                        |                        |              |
+| 167913:1901 |     [1-126], [128-432] |   7.992(/pb) |  HLT_Mu24_v5(40,10,20) |       L1_SingleMu12(1) | 464.116(/nb) |
+| 170722:1960 |              [110-287] |   5.469(/pb) | HLT_Mu24_v7(160,120,80 |       L1_SingleMu12(1) |  58.492(/nb) |
+|             |                        |              |                      ) |                        |              |
+| 170759:1961 |   [49-224], [228-251], |  10.089(/pb) |     HLT_Mu24_v7(80,55) |       L1_SingleMu12(1) | 132.256(/nb) |
+|             |              [257-376] |              |                        |                        |              |
+| 170826:1962 |   [50-122], [139-243], |   7.082(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) |  88.520(/nb) |
+|             |              [248-308] |              |                        |                        |              |
+| 170842:1962 |       [1-27], [32-96], |   8.280(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) | 103.500(/nb) |
+|             |              [102-331] |              |                        |                        |              |
+| 170854:1962 |    [1-336], [341-414], |  12.272(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) | 153.395(/nb) |
+|             |   [420-470], [475-578] |              |                        |                        |              |
+| 170876:1962 |    [1-110], [115-295], |   9.193(/pb) |  HLT_Mu24_v7(80,40,55) |       L1_SingleMu12(1) | 160.277(/nb) |
+|             |              [301-516] |              |                        |                        |              |
+| 170896:1962 |                [1-212] |   3.501(/pb) |        HLT_Mu24_v7(40) |       L1_SingleMu12(1) |  87.524(/nb) |
+| 170899:1962 |                 [1-84] |   1.330(/pb) |        HLT_Mu24_v7(40) |       L1_SingleMu12(1) |  33.245(/nb) |
+| 170901:1962 |     [1-153], [159-200] |   2.793(/pb) |        HLT_Mu24_v7(40) |       L1_SingleMu12(1) |  69.826(/nb) |
+| 171050:1966 |     [47-74], [80-225], |  18.399(/pb) | HLT_Mu24_v7(240,160,12 |       L1_SingleMu12(1) | 149.848(/nb) |
+|             |  [230-246], [252-337], |              |                     0) |                        |              |
+|             |  [342-369], [371-379], |              |                        |                        |              |
+|             |  [384-423], [427-467], |              |                        |                        |              |
+|             |              [471-648] |              |                        |                        |              |
+| 171091:1966 |                [1-135] |   3.542(/pb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |  29.519(/nb) |
+| 171098:1966 |                  [1-8] |  95.860(/nb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) | 798.836(/ub) |
+| 171102:1966 |                 [1-19] | 444.237(/nb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |   3.702(/nb) |
+| 171106:1966 |       [1-27], [32-288] |   6.954(/pb) |    HLT_Mu24_v7(120,80) |       L1_SingleMu12(1) |  84.251(/nb) |
+| 171117:1966 |       [1-54], [56-78], |   1.728(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) |  21.601(/nb) |
+|             |                [80-84] |              |                        |                        |              |
+| 171156:1967 |   [42-106], [111-686], |  19.453(/pb) |   HLT_Mu24_v7(240,120) |       L1_SingleMu12(1) | 138.541(/nb) |
+|             |              [688-691] |              |                        |                        |              |
+| 171178:1967 |      [1-92], [97-205], |  23.180(/pb) | HLT_Mu24_v7(120,80,55) |       L1_SingleMu12(1) | 310.407(/nb) |
+|             |  [210-551], [556-557], |              |                        |                        |              |
+|             |  [563-787], [792-1043] |              |                        |                        |              |
+| 171219:1968 |    [48-151], [153-162] |   4.120(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  25.748(/nb) |
+| 171274:1970 |    [88-137], [140-143] |   2.132(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  13.322(/nb) |
+| 171282:1970 |       [1-12], [14-99], |   6.251(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  39.069(/nb) |
+|             |   [104-134], [140-171] |              |                        |                        |              |
+| 171315:1971 |               [53-225] |   6.449(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  40.308(/nb) |
+| 171369:1972 |   [42-130], [136-137], |   3.991(/pb) |   HLT_Mu24_v7(200,160) |       L1_SingleMu12(1) |  23.993(/nb) |
+|             |              [144-161] |              |                        |                        |              |
+| 171446:1974 |   [58-394], [401-450], |  26.706(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) | 197.730(/nb) |
+|             |  [456-645], [650-749], |              |                        |                        |              |
+|             |              [755-863] |              |                        |                        |              |
+| 171484:1975 |   [61-202], [207-370], |  13.347(/pb) | HLT_Mu24_v7(200,160,12 |       L1_SingleMu12(1) |  87.242(/nb) |
+|             |              [377-432] |              |                     0) |                        |              |
+| 171578:1979 |   [47-150], [156-174], |  24.009(/pb) | HLT_Mu24_v7(160,120,80 |       L1_SingleMu12(1) | 209.614(/nb) |
+|             |  [179-314], [320-347], |              |                      ) |                        |              |
+|             |  [353-480], [487-572], |              |                        |                        |              |
+|             |   [578-816], [821-973] |              |                        |                        |              |
+| 171812:1982 |    [59-296], [301-438] |  13.821(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) |  94.403(/nb) |
+| 171876:1985 |    [1-362], [368-391], |  19.061(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) | 129.486(/nb) |
+|             |              [397-533] |              |                        |                        |              |
+| 171880:1985 |               [19-202] |   5.611(/pb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |  46.762(/nb) |
+| 171895:1985 |                [34-34] |  18.415(/nb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) | 153.455(/ub) |
+| 171897:1985 |     [1-23], [205-437], |   8.671(/pb) |    HLT_Mu24_v7(120,80) |       L1_SingleMu12(1) |  96.418(/nb) |
+|             |   [442-511], [517-541] |              |                        |                        |              |
+| 171921:1986 |               [51-141] |   3.934(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  24.589(/nb) |
+| 171926:1986 |      [1-49], [51-155], |   9.490(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  59.312(/nb) |
+|             |   [161-172], [177-264] |              |                        |                        |              |
+| 172014:1990 |      [1-64], [66-143], |   9.891(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  61.821(/nb) |
+|             |              [149-243] |              |                        |                        |              |
+| 172024:1990 |                 [1-46] |   1.792(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  11.200(/nb) |
+| 172033:1990 |      [1-65], [71-277], |  24.563(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) | 185.707(/nb) |
+|             |  [282-375], [380-473], |              |                        |                        |              |
+|             |              [478-749] |              |                        |                        |              |
+| 172163:1991 |    [36-109], [115-469] |  17.711(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) | 110.691(/nb) |
+| 172208:1992 |               [61-198] |   6.108(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  38.175(/nb) |
+| 172252:1993 |                [32-54] |   1.090(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |   6.812(/nb) |
+| 172254:1993 |                 [1-35] |   1.566(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |   9.785(/nb) |
+| 172255:1993 |                 [1-40] |   1.594(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |   9.961(/nb) |
+| 172268:1994 |               [56-169] |   5.324(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  33.276(/nb) |
+| 172286:1996 |    [52-177], [184-215] |   6.842(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  42.762(/nb) |
+| 172389:1997 |   [34-144], [150-428], |  17.490(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) | 109.311(/nb) |
+|             |              [434-460] |              |                        |                        |              |
+| 172399:1998 |               [57-226] |   7.590(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  47.436(/nb) |
+| 172400:1998 |    [1-495], [500-690], |  25.455(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) | 175.529(/nb) |
+|             |              [696-704] |              |                        |                        |              |
+| 172401:1998 |         [1-2], [5-148] |   4.409(/pb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |  36.745(/nb) |
+| 172411:1999 |               [85-349] |  11.722(/pb) |   HLT_Mu24_v7(160,240) |       L1_SingleMu12(1) |  73.172(/nb) |
+| 172478:1999 |       [1-13], [15-109] |   2.935(/pb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |  24.458(/nb) |
+| 172619:2000 |                 [1-77] |   1.580(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) |  19.750(/nb) |
+| 172620:2000 |                [1-495] |   9.772(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) | 122.146(/nb) |
+| 172630:2001 |     [36-64], [68-134], |   5.566(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  34.787(/nb) |
+|             |              [139-160] |              |                        |                        |              |
+| 172635:2001 |       [1-18], [24-268] |  11.039(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  68.993(/nb) |
+| 172778:2005 |                [48-96] |   2.165(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  13.530(/nb) |
+| 172791:2006 |   [65-413], [418-569], |  55.774(/pb) | HLT_Mu24_v7(240,160,12 |       L1_SingleMu12(1) | 413.148(/nb) |
+|             | [571-715], [721-1295], |              |                     0) |                        |              |
+|             |           [1300-1536], |              |                        |                        |              |
+|             |           [1542-1645], |              |                        |                        |              |
+|             |            [1649-1658] |              |                        |                        |              |
+| 172798:2006 |                 [1-31] | 769.335(/nb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |   6.411(/nb) |
+| 172799:2006 |                [1-366] |   9.478(/pb) |    HLT_Mu24_v7(120,80) |       L1_SingleMu12(1) |  96.334(/nb) |
+| 172801:2006 |    [1-679], [681-750], |  24.199(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) | 302.491(/nb) |
+|             |  [753-766], [768-815], |              |                        |                        |              |
+|             |  [819-837], [839-861], |              |                        |                        |              |
+|             |  [863-909], [911-1139] |              |                        |                        |              |
+| 172802:2006 |     [1-629], [634-784] |  13.992(/pb) |     HLT_Mu24_v7(80,55) |       L1_SingleMu12(1) | 222.685(/nb) |
+| 172819:2007 |      [57-87], [92-254] |   8.862(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  55.389(/nb) |
+| 172822:2007 |      [1-75], [77-127], |  72.573(/pb) | HLT_Mu24_v7(160,120,80 |       L1_SingleMu12(1) | 597.794(/nb) |
+|             |  [133-353], [358-662], |              |                      ) |                        |              |
+|             | [667-832], [837-1096], |              |                        |                        |              |
+|             |           [1102-1112], |              |                        |                        |              |
+|             |           [1118-2121], |              |                        |                        |              |
+|             |            [2127-2333] |              |                        |                        |              |
+| 172824:2007 |                 [1-54] |   1.108(/pb) |        HLT_Mu24_v7(80) |       L1_SingleMu12(1) |  13.853(/nb) |
+| 172847:2008 |               [62-131] |   3.238(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  20.240(/nb) |
+| 172865:2009 |    [36-151], [157-382] |  15.893(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  99.329(/nb) |
+| 172868:2009 |      [1-29], [34-708], |  62.470(/pb) | HLT_Mu24_v7(160,120,80 |       L1_SingleMu12(1) | 498.063(/nb) |
+|             | [714-909], [912-1829], |              |                      ) |                        |              |
+|             |            [1835-1969] |              |                        |                        |              |
+| 172949:2010 |   [55-127], [133-159], |  47.281(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) | 320.275(/nb) |
+|             |  [161-263], [269-274], |              |                        |                        |              |
+|             |  [276-892], [898-928], |              |                        |                        |              |
+|             |             [933-1287] |              |                        |                        |              |
+| 172951:2010 |                 [1-52] |   1.566(/pb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |  13.046(/nb) |
+| 172952:2010 |    [1-195], [197-670], |  39.409(/pb) |    HLT_Mu24_v7(120,80) |       L1_SingleMu12(1) | 412.919(/nb) |
+|             | [675-797], [799-1164], |              |                        |                        |              |
+|             |            [1169-1561] |              |                        |                        |              |
+| 172992:2011 |  [505-511], [516-713], |  15.148(/pb) |       HLT_Mu24_v7(160) |       L1_SingleMu12(1) |  94.677(/nb) |
+|             |   [752-874], [880-946] |              |                        |                        |              |
+| 172999:2011 |       [1-71], [77-294] |   9.330(/pb) |       HLT_Mu24_v7(120) |       L1_SingleMu12(1) |  77.752(/nb) |
+| 173198:2022 |   [49-322], [324-356], |  31.009(/pb) |   HLT_Mu24_v7(160,120) |       L1_SingleMu12(1) | 205.267(/nb) |
+|             |  [362-485], [488-768], |              |                        |                        |              |
+|             |              [770-822] |              |                        |                        |              |
+| 173236:2025 |              [128-231] |   5.171(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  18.803(/nb) |
+| 173240:2025 |                [1-124] |   5.738(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  20.864(/nb) |
+| 173241:2025 |      [1-85], [92-381], |  30.086(/pb) | HLT_Mu24_v8(130,275,19 |       L1_SingleMu16(1) | 157.484(/nb) |
+|             |              [388-759] |              |                     0) |                        |              |
+| 173243:2025 |                 [1-89] |   3.085(/pb) |   HLT_Mu24_v8(130,190) |       L1_SingleMu16(1) |  17.226(/nb) |
+| 173380:2028 |    [75-204], [209-209] |   5.939(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) |  22.064(/nb) |
+| 173381:2028 |    [1-134], [139-221], |  11.237(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  59.142(/nb) |
+|             |   [226-226], [231-294] |              |                        |                        |              |
+| 173389:2029 |   [18-106], [111-169], |  25.633(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 117.378(/nb) |
+|             |  [174-224], [230-262], |              |                        |                        |              |
+|             |              [276-653] |              |                        |                        |              |
+| 173406:2030 |               [37-285] |  12.085(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  43.946(/nb) |
+| 173430:2031 |               [72-163] |   4.518(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  23.781(/nb) |
+| 173438:2032 |                [32-56] |   1.115(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |   5.871(/nb) |
+| 173439:2032 |    [1-274], [280-313], |  35.111(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 159.438(/nb) |
+|             |   [319-467], [472-756] |              |                        |                        |              |
+| 173657:2037 |                [59-93] |   1.412(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) |   5.924(/nb) |
+| 173658:2037 |                [1-110] |   4.493(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  23.648(/nb) |
+| 173659:2037 |       [1-61], [66-317] |  12.959(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  68.205(/nb) |
+| 173660:2037 |      [1-81], [86-164], |  12.740(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  67.055(/nb) |
+|             |   [169-357], [359-362] |              |                        |                        |              |
+| 173661:2037 |       [1-56], [62-63], |   3.838(/pb) |       HLT_Mu24_v8(130) |       L1_SingleMu16(1) |  29.519(/nb) |
+|             |               [65-125] |              |                        |                        |              |
+| 173663:2037 |       [1-71], [73-120] |   3.711(/pb) |       HLT_Mu24_v8(130) |       L1_SingleMu16(1) |  28.548(/nb) |
+| 173664:2037 |                 [5-16] | 370.490(/nb) |       HLT_Mu24_v8(130) |       L1_SingleMu16(1) |   2.850(/nb) |
+| 173692:2040 |   [50-143], [149-468], |  86.467(/pb) | HLT_Mu24_v8(130,275,90 |       L1_SingleMu16(1) | 612.436(/nb) |
+|             |            [474-1123], |              |                  ,190) |                        |              |
+|             |           [1129-1162], |              |                        |                        |              |
+|             |           [1168-1321], |              |                        |                        |              |
+|             |           [1326-1361], |              |                        |                        |              |
+|             |           [1366-1383], |              |                        |                        |              |
+|             |           [1389-1431], |              |                        |                        |              |
+|             |           [1436-1818], |              |                        |                        |              |
+|             |           [1824-2361], |              |                        |                        |              |
+|             |           [2366-2710], |              |                        |                        |              |
+|             |            [2715-2754] |              |                        |                        |              |
+| 175832:2083 |               [43-139] |   1.319(/pb) |    HLT_Mu24_v8(45,190) |       L1_SingleMu16(1) |  20.282(/nb) |
+| 175833:2083 |                  [1-3] |   2.023(/nb) |        HLT_Mu24_v8(45) |       L1_SingleMu16(1) |  44.954(/ub) |
+| 175835:2083 |     [1-120], [122-165] |   1.581(/pb) |        HLT_Mu24_v8(45) |       L1_SingleMu16(1) |  35.142(/nb) |
+| 175837:2083 |                [1-167] |   1.542(/pb) |        HLT_Mu24_v8(45) |       L1_SingleMu16(1) |  34.266(/nb) |
+| 175858:2085 |                 [1-21] | 382.590(/nb) |        HLT_Mu24_v8(90) |       L1_SingleMu16(1) |   4.251(/nb) |
+| 175860:2085 |                 [1-82] |   1.610(/pb) |        HLT_Mu24_v8(90) |       L1_SingleMu16(1) |  17.892(/nb) |
+| 175863:2085 |                 [1-75] |   1.384(/pb) |        HLT_Mu24_v8(90) |       L1_SingleMu16(1) |  15.381(/nb) |
+| 175865:2085 |                 [1-58] |   1.012(/pb) |        HLT_Mu24_v8(90) |       L1_SingleMu16(1) |  11.242(/nb) |
+| 175866:2085 |     [1-353], [356-511] |   8.175(/pb) |        HLT_Mu24_v8(90) |       L1_SingleMu16(1) |  90.832(/nb) |
+| 175872:2086 |                [60-90] |   1.427(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   5.190(/nb) |
+| 175873:2086 |                 [1-32] |   1.382(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   5.027(/nb) |
+| 175874:2086 |       [1-33], [36-108] |   4.599(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  16.724(/nb) |
+| 175877:2086 |                 [1-69] |   2.629(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  13.836(/nb) |
+| 175881:2086 |                [1-160] |   5.778(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  30.409(/nb) |
+| 175886:2086 |                [1-280] |   9.182(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  48.326(/nb) |
+| 175887:2086 |       [1-18], [21-138] |   4.080(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  21.475(/nb) |
+| 175888:2086 |                [1-424] |  11.864(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  62.444(/nb) |
+| 175906:2090 |               [79-191] |   6.294(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  22.889(/nb) |
+| 175910:2090 |                 [1-12] | 306.708(/nb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   1.115(/nb) |
+| 175921:2091 |               [64-428] |  21.676(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  78.821(/nb) |
+| 175973:2092 |   [126-183], [186-268] |   9.089(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |  24.236(/nb) |
+| 175974:2092 |                [1-124] |   7.331(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |  19.550(/nb) |
+| 175975:2092 |      [1-90], [93-101], |  20.355(/pb) |    HLT_Mu24_v8(25,190) |    L1_SingleMu16(1,15) |  81.858(/nb) |
+|             |              [104-390] |              |                        |                        |              |
+| 175976:2092 |       [1-33], [36-51], |   4.398(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  23.147(/nb) |
+|             |               [54-102] |              |                        |                        |              |
+| 175990:2093 |               [56-164] |   7.034(/pb) |       HLT_Mu24_v8(275) |    L1_SingleMu16(1,15) |  25.353(/nb) |
+| 176023:2094 |               [44-129] |   6.120(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  19.277(/nb) |
+| 176161:2101 |        [6-7], [13-14], | 801.375(/nb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   2.914(/nb) |
+|             |                [16-23] |              |                        |                        |              |
+| 176163:2101 |          [1-4], [7-63] |   3.994(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  14.524(/nb) |
+| 176165:2101 |                 [1-29] |   1.742(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   6.336(/nb) |
+| 176167:2101 |                  [1-5] | 124.152(/nb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 451.463(/ub) |
+| 176169:2101 |                [1-140] |   7.939(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  28.870(/nb) |
+| 176201:2103 |      [52-52], [54-55], |  39.886(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 139.441(/nb) |
+|             |      [58-58], [61-63], |              |                        |                        |              |
+|             |   [67-263], [265-570], |              |                        |                        |              |
+|             |              [573-655] |              |                        |                        |              |
+| 176202:2103 |     [1-179], [182-264] |  14.545(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  52.889(/nb) |
+| 176206:2103 |                [1-101] |   4.750(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  17.274(/nb) |
+| 176207:2103 |                [1-230] |  10.926(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  39.731(/nb) |
+| 176286:2104 |   [55-224], [226-247], |  29.586(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 102.897(/nb) |
+|             |   [250-252], [254-486] |              |                        |                        |              |
+| 176289:2104 |        [1-43], [46-75] |   3.938(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  14.321(/nb) |
+| 176304:2105 |      [69-69], [73-73], |  31.443(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 105.891(/nb) |
+|             |     [77-77], [79-132], |              |                        |                        |              |
+|             |   [135-422], [425-516] |              |                        |                        |              |
+| 176308:2105 |      [1-45], [48-130], |  16.707(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  60.754(/nb) |
+|             |              [133-293] |              |                        |                        |              |
+| 176309:2105 |      [1-84], [87-122], |  66.756(/pb) | HLT_Mu24_v8(130,275,90 |       L1_SingleMu16(1) | 474.767(/nb) |
+|             |  [125-354], [356-467], |              |                  ,190) |                        |              |
+|             |  [470-512], [514-627], |              |                        |                        |              |
+|             |            [630-1177], |              |                        |                        |              |
+|             |            [1180-1641] |              |                        |                        |              |
+| 176467:2110 |       [1-85], [88-164] |  10.136(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  36.857(/nb) |
+| 176468:2110 |     [1-124], [126-210] |  12.172(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  44.261(/nb) |
+| 176469:2110 |                  [1-5] | 134.931(/nb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 490.657(/ub) |
+| 176545:2117 |                  [5-5] |  18.454(/nb) |        HLT_Mu24_v8(20) |      L1_SingleMu16(20) |  46.135(/ub) |
+| 176547:2117 |    [1-151], [154-172], |  12.584(/pb) |    HLT_Mu24_v8(275,20) |    L1_SingleMu16(1,20) |  43.712(/nb) |
+|             |              [175-184] |              |                        |                        |              |
+| 176548:2117 |      [1-72], [75-387], |  55.838(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 234.961(/nb) |
+|             |  [390-487], [489-494], |              |                        |                        |              |
+|             |  [496-575], [577-1024] |              |                        |                        |              |
+| 176697:2124 |      [50-66], [68-344] |  21.533(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |  57.421(/nb) |
+| 176701:2124 |                [1-145] |   9.077(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  32.720(/nb) |
+| 176702:2124 |         [1-4], [6-42], |  41.591(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 183.557(/nb) |
+|             |   [45-103], [105-284], |              |                        |                        |              |
+|             |  [287-291], [294-351], |              |                        |                        |              |
+|             |  [353-599], [622-684], |              |                        |                        |              |
+|             |  [686-723], [726-794], |              |                        |                        |              |
+|             |   [796-799], [801-839] |              |                        |                        |              |
+| 176765:2126 |               [84-141] |   2.988(/pb) |     HLT_Mu24_v8(25,20) |   L1_SingleMu16(20,15) |   7.790(/nb) |
+| 176771:2127 |      [57-60], [62-156] |   6.323(/pb) | HLT_Mu24_v8(25,275,20) | L1_SingleMu16(1,20,15) |  18.242(/nb) |
+| 176795:2129 |               [38-105] |   4.769(/pb) |     HLT_Mu24_v8(25,20) |   L1_SingleMu16(20,15) |  12.019(/nb) |
+| 176796:2129 |       [1-24], [31-100] |   6.526(/pb) | HLT_Mu24_v8(25,275,20) | L1_SingleMu16(1,20,15) |  20.835(/nb) |
+| 176797:2129 |       [1-26], [33-89], |  14.151(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  51.457(/nb) |
+|             |   [95-131], [136-196], |              |                        |                        |              |
+|             |   [203-237], [244-252] |              |                        |                        |              |
+| 176799:2129 |       [1-27], [30-35], |  12.152(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) |  50.617(/nb) |
+|             |               [38-238] |              |                        |                        |              |
+| 176801:2129 |      [1-92], [95-173], |  11.235(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  59.132(/nb) |
+|             |   [176-177], [179-249] |              |                        |                        |              |
+| 176805:2129 |                 [1-97] |   4.089(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  21.519(/nb) |
+| 176807:2129 |      [1-74], [76-255], |  17.984(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  94.651(/nb) |
+|             |              [257-461] |              |                        |                        |              |
+| 176841:2135 |  [105-157], [159-182], |   5.939(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  21.597(/nb) |
+|             |   [184-235], [238-241] |              |                        |                        |              |
+| 176844:2135 |                [1-110] |   5.441(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) |  23.488(/nb) |
+| 176848:2135 |                 [1-25] |   1.150(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |   6.055(/nb) |
+| 176850:2135 |       [1-29], [32-301] |  14.338(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  75.464(/nb) |
+| 176860:2135 |      [1-78], [81-271], |  18.545(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  97.604(/nb) |
+|             |   [273-335], [338-450] |              |                        |                        |              |
+| 176868:2135 |                [1-495] |  17.703(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  93.174(/nb) |
+| 176885:2138 |    [67-152], [164-235] |  10.694(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  38.889(/nb) |
+| 176886:2138 |    [1-335], [337-416], |  36.059(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 154.277(/nb) |
+|             |  [418-425], [427-429], |              |                        |                        |              |
+|             |  [431-499], [502-503], |              |                        |                        |              |
+|             |  [505-505], [507-507], |              |                        |                        |              |
+|             |   [509-514], [516-678] |              |                        |                        |              |
+| 176889:2138 |       [1-81], [83-102] |   4.089(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) |  21.522(/nb) |
+| 176928:2140 |      [1-99], [102-121] |   8.105(/pb) |    HLT_Mu24_v8(275,20) |    L1_SingleMu16(1,20) |  28.941(/nb) |
+| 176929:2140 |      [1-59], [62-198], |  19.277(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  70.100(/nb) |
+|             |   [201-218], [221-320] |              |                        |                        |              |
+| 176933:2140 |      [1-71], [73-358], |  21.489(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 106.523(/nb) |
+|             |   [361-415], [418-438] |              |                        |                        |              |
+| 176959:2143 |                [17-39] | 859.629(/nb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   3.126(/nb) |
+| 176982:2144 |                 [1-10] | 233.646(/nb) |    HLT_Mu24_v8(275,20) |    L1_SingleMu16(1,20) | 806.557(/ub) |
+| 177053:2147 |      [54-72], [74-87], |  38.217(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 155.541(/nb) |
+|             |   [90-208], [211-217], |              |                        |                        |              |
+|             |  [219-258], [260-380], |              |                        |                        |              |
+|             |  [385-427], [429-570], |              |                        |                        |              |
+|             |   [573-709], [712-740] |              |                        |                        |              |
+| 177074:2150 |   [52-120], [123-468], |  39.560(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 166.146(/nb) |
+|             |  [470-554], [556-735], |              |                        |                        |              |
+|             |              [737-769] |              |                        |                        |              |
+| 177088:2151 |       [57-83], [85-95] |   2.272(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   8.263(/nb) |
+| 177095:2152 |    [49-111], [113-204] |   9.099(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  33.086(/nb) |
+| 177096:2152 |       [1-14], [17-190] |   9.712(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) |  40.309(/nb) |
+| 177131:2155 |               [49-139] |   6.620(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |  17.653(/nb) |
+| 177138:2156 |      [55-57], [59-114] |   4.110(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  13.756(/nb) |
+| 177139:2156 |    [1-206], [208-249], |  37.059(/pb) |   HLT_Mu24_v8(275,190) |       L1_SingleMu16(1) | 143.144(/nb) |
+|             |  [252-335], [337-375], |              |                        |                        |              |
+|             |              [378-627] |              |                        |                        |              |
+| 177140:2156 |    [1-106], [108-492], |  26.297(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) | 138.406(/nb) |
+|             |              [495-557] |              |                        |                        |              |
+| 177141:2156 |      [1-57], [59-154], |  24.967(/pb) |       HLT_Mu24_v8(190) |       L1_SingleMu16(1) | 131.406(/nb) |
+|             |  [157-288], [290-492], |              |                        |                        |              |
+|             |              [494-628] |              |                        |                        |              |
+| 177183:2157 |      [4-74], [76-199], |  15.484(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  49.590(/nb) |
+|             |              [202-219] |              |                        |                        |              |
+| 177184:2157 |        [1-12], [15-41] |   2.118(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   7.701(/nb) |
+| 177201:2158 |      [60-65], [68-73], |  45.019(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 150.536(/nb) |
+|             |   [75-212], [215-334], |              |                        |                        |              |
+|             |  [337-516], [519-603], |              |                        |                        |              |
+|             |   [606-621], [623-799] |              |                        |                        |              |
+| 177222:2160 |               [50-342] |  19.695(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  70.961(/nb) |
+| 177317:2165 |                 [1-60] |   4.239(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |  11.304(/nb) |
+| 177318:2165 |    [1-236], [238-257], |  26.376(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  91.209(/nb) |
+|             |   [259-369], [372-404] |              |                        |                        |              |
+| 177319:2165 |      [1-54], [56-224], |  19.599(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  71.268(/nb) |
+|             |  [227-286], [289-351], |              |                        |                        |              |
+|             |              [354-368] |              |                        |                        |              |
+| 177449:2168 |     [56-80], [83-234], |  26.977(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  84.994(/nb) |
+|             |   [236-392], [394-434] |              |                        |                        |              |
+| 177452:2168 |     [1-156], [158-169] |   9.486(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  34.495(/nb) |
+| 177718:2177 |     [53-62], [64-482], |  86.187(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 308.273(/nb) |
+|             |  [485-656], [659-697], |              |                        |                        |              |
+|             |  [699-701], [703-703], |              |                        |                        |              |
+|             |            [706-1572], |              |                        |                        |              |
+|             |            [1575-1635] |              |                        |                        |              |
+| 177719:2177 |    [1-194], [197-694], |  24.775(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  90.090(/nb) |
+|             |              [696-704] |              |                        |                        |              |
+| 177730:2178 |     [49-88], [91-234], | 114.347(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 406.374(/nb) |
+|             |  [237-448], [451-701], |              |                        |                        |              |
+|             |  [704-773], [776-931], |              |                        |                        |              |
+|             |            [933-1470], |              |                        |                        |              |
+|             |           [1473-1763], |              |                        |                        |              |
+|             |           [1766-1956], |              |                        |                        |              |
+|             |           [1959-2266], |              |                        |                        |              |
+|             |            [2268-2303] |              |                        |                        |              |
+| 177776:2180 |               [73-108] |   2.567(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |   6.845(/nb) |
+| 177782:2181 |      [72-75], [78-226] |  11.146(/pb) | HLT_Mu24_v8(25,275,20) | L1_SingleMu16(1,20,15) |  36.807(/nb) |
+| 177783:2181 |      [1-94], [97-176], |  22.849(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  83.086(/nb) |
+|             |   [178-234], [237-363] |              |                        |                        |              |
+| 177788:2181 |                 [1-46] |   2.312(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |   7.414(/nb) |
+| 177789:2181 |       [1-38], [41-82], |   3.807(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  13.843(/nb) |
+|             |                [84-86] |              |                        |                        |              |
+| 177790:2181 |     [1-189], [191-715] |  31.174(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 113.360(/nb) |
+| 177791:2181 |      [1-27], [30-109], |   6.212(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  22.588(/nb) |
+|             |              [137-198] |              |                        |                        |              |
+| 177875:2182 |   [71-214], [217-367], |  34.028(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 117.711(/nb) |
+|             |   [370-448], [451-589] |              |                        |                        |              |
+| 177878:2182 |    [1-138], [143-492], |  40.351(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 146.730(/nb) |
+|             |   [495-837], [839-849] |              |                        |                        |              |
+| 178098:2195 |   [16-120], [122-142], |  45.260(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 152.234(/nb) |
+|             |  [144-152], [155-179], |              |                        |                        |              |
+|             |  [181-249], [251-549], |              |                        |                        |              |
+|             |  [551-576], [579-619], |              |                        |                        |              |
+|             |   [622-677], [679-706] |              |                        |                        |              |
+| 178099:2195 |                [1-192] |  10.173(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  36.993(/nb) |
+| 178100:2195 |      [1-40], [43-163], |  64.563(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 234.775(/nb) |
+|             |  [166-511], [514-529], |              |                        |                        |              |
+|             |            [532-1114], |              |                        |                        |              |
+|             |            [1117-1613] |              |                        |                        |              |
+| 178101:2195 |        [1-61], [64-75] |   2.196(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   7.985(/nb) |
+| 178102:2195 |                 [1-13] | 340.535(/nb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |   1.238(/nb) |
+| 178110:2197 |   [51-133], [135-197], |  30.384(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) |  95.137(/nb) |
+|             |  [199-246], [252-396], |              |                        |                        |              |
+|             |              [401-468] |              |                        |                        |              |
+| 178116:2197 |     [1-120], [122-615] |  36.144(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 131.434(/nb) |
+| 178151:2199 |               [47-122] |   5.734(/pb) |        HLT_Mu24_v8(25) |      L1_SingleMu16(15) |  15.290(/nb) |
+| 178160:2200 |    [51-456], [458-534] |  35.038(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 114.975(/nb) |
+| 178162:2200 |         [1-4], [7-55], |   9.766(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  35.514(/nb) |
+|             |    [58-146], [149-175] |              |                        |                        |              |
+| 178365:2204 |     [43-96], [98-238], |  65.303(/pb) |    HLT_Mu24_v8(25,275) |    L1_SingleMu16(1,15) | 224.851(/nb) |
+|             |  [241-380], [382-558], |              |                        |                        |              |
+|             | [560-660], [663-1050], |              |                        |                        |              |
+|             |            [1053-1059] |              |                        |                        |              |
+| 178367:2204 |   [22-135], [138-161], |  30.410(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) | 110.582(/nb) |
+|             |  [163-264], [266-316], |              |                        |                        |              |
+|             |  [318-366], [369-392], |              |                        |                        |              |
+|             |  [395-548], [560-711], |              |                        |                        |              |
+|             |              [713-737] |              |                        |                        |              |
+| 178380:2204 |       [1-81], [84-195] |   6.778(/pb) |       HLT_Mu24_v8(275) |       L1_SingleMu16(1) |  24.649(/nb) |
+| 178420:2208 |       [53-61], [63-70] | 531.070(/nb) |      HLT_Mu24_v11(200) |    L1_SingleMu16(1,15) |   2.524(/nb) |
+| 178421:2208 |        [1-3], [47-77], |  66.801(/pb) |   HLT_Mu24_v11(200,35) | L1_SingleMu16(1,20,15) | 293.812(/nb) |
+|             |   [79-135], [137-149], |              |                        |                        |              |
+|             |  [151-265], [268-293], |              |                        |                        |              |
+|             |  [295-320], [323-512], |              |                        |                        |              |
+|             |  [514-586], [588-742], |              |                        |                        |              |
+|             |  [744-756], [759-915], |              |                        |                        |              |
+|             |             [917-1207] |              |                        |                        |              |
+| 178424:2208 |    [1-536], [538-594], |  33.032(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 165.162(/nb) |
+|             |              [597-837] |              |                        |                        |              |
+| 178479:2210 |     [61-64], [66-129], |  61.725(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) | 278.931(/nb) |
+|             |  [132-245], [247-354], |              |                        |                        |              |
+|             |  [356-576], [578-985], |              |                        |                        |              |
+|             |             [988-1004] |              |                        |                        |              |
+| 178703:2216 |               [43-183] |  10.343(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) |  21.305(/nb) |
+| 178708:2216 |                [1-373] |  24.978(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 124.890(/nb) |
+| 178712:2216 |      [1-42], [44-197], |  22.251(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 111.256(/nb) |
+|             |   [199-333], [336-394] |              |                        |                        |              |
+| 178724:2216 |                [3-261] |  13.076(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  65.380(/nb) |
+| 178731:2216 |                [1-208] |   9.554(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  47.768(/nb) |
+| 178738:2216 |     [1-143], [145-252] |  10.500(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  52.501(/nb) |
+| 178786:2217 |     [53-67], [70-117], |  12.562(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) |  33.589(/nb) |
+|             |  [120-120], [123-135], |              |                        |                        |              |
+|             |  [138-202], [205-218], |              |                        |                        |              |
+|             |              [220-227] |              |                        |                        |              |
+| 178803:2218 |   [49-115], [117-316], |  30.061(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) | 128.068(/nb) |
+|             |              [319-457] |              |                        |                        |              |
+| 178840:2219 |   [48-119], [122-336], |  40.338(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) | 163.622(/nb) |
+|             |  [339-341], [343-566], |              |                        |                        |              |
+|             |              [569-597] |              |                        |                        |              |
+| 178854:2219 |                [1-134] |   8.372(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  41.858(/nb) |
+| 178866:2219 |                [1-424] |  24.049(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 120.243(/nb) |
+| 178871:2219 |       [1-64], [67-71], |  55.085(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 275.424(/nb) |
+|             |   [73-156], [159-380], |              |                        |                        |              |
+|             | [382-466], [468-1181], |              |                        |                        |              |
+|             |            [1184-1273] |              |                        |                        |              |
+| 178920:2220 |               [53-291] |  19.299(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) |  56.585(/nb) |
+| 178970:2222 |    [52-242], [244-581] |  38.881(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) | 166.872(/nb) |
+| 178985:2222 |                 [1-81] |   4.615(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  23.074(/nb) |
+| 179411:2239 |                [1-112] |   7.598(/pb) |   HLT_Mu24_v11(200,35) | L1_SingleMu16(1,20,15) |  21.223(/nb) |
+| 179434:2240 |   [21-289], [291-388], |  48.964(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) | 232.945(/nb) |
+|             |   [390-607], [609-748] |              |                        |                        |              |
+| 179452:2240 |    [1-108], [110-121], |  58.570(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 292.851(/nb) |
+|             |  [124-158], [160-276], |              |                        |                        |              |
+|             |  [278-289], [292-515], |              |                        |                        |              |
+|             |  [518-830], [833-849], |              |                        |                        |              |
+|             |            [851-1116], |              |                        |                        |              |
+|             |            [1118-1233] |              |                        |                        |              |
+| 179476:2240 |       [1-16], [19-207] |   7.546(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  37.728(/nb) |
+| 179497:2241 |   [86-116], [118-131], |  22.999(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) |  92.944(/nb) |
+|             |  [134-149], [151-274], |              |                        |                        |              |
+|             |  [277-280], [283-402], |              |                        |                        |              |
+|             |              [405-433] |              |                        |                        |              |
+| 179547:2242 |   [75-156], [158-162], |  20.393(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) |  63.430(/nb) |
+|             |   [164-262], [265-338] |              |                        |                        |              |
+| 179558:2242 |       [1-52], [55-64], |   9.355(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) |  46.774(/nb) |
+|             |      [66-73], [75-134] |              |                        |                        |              |
+| 179563:2242 |    [1-440], [443-631], |  68.311(/pb) |      HLT_Mu24_v11(200) |       L1_SingleMu16(1) | 341.553(/nb) |
+|             |  [633-704], [707-722], |              |                        |                        |              |
+|             |  [724-912], [915-968], |              |                        |                        |              |
+|             |            [970-1085], |              |                        |                        |              |
+|             |           [1087-1138], |              |                        |                        |              |
+|             |            [1141-1186] |              |                        |                        |              |
+| 179889:2254 |     [51-68], [70-139], |  35.812(/pb) |   HLT_Mu24_v11(200,35) |    L1_SingleMu16(1,15) | 149.308(/nb) |
+|             |  [142-448], [450-463], |              |                        |                        |              |
+|             |   [466-497], [500-534] |              |                        |                        |              |
+| 179959:2256 |                [69-86] |   1.404(/pb) |       HLT_Mu24_v12(35) |      L1_SingleMu16(15) |   2.673(/nb) |
+| 179977:2258 |     [44-51], [53-114], |   7.398(/pb) |       HLT_Mu24_v12(35) |      L1_SingleMu16(15) |  14.092(/nb) |
+|             |              [116-136] |              |                        |                        |              |
+| 180072:2261 |               [49-102] |   3.909(/pb) |   HLT_Mu24_v12(200,35) | L1_SingleMu16(1,20,15) |  10.982(/nb) |
+| 180076:2261 |     [1-182], [184-356] |  24.734(/pb) |   HLT_Mu24_v12(200,35) |    L1_SingleMu16(1,20) | 118.378(/nb) |
+| 180093:2261 |    [1-260], [263-292], |  19.936(/pb) |   HLT_Mu24_v12(200,35) |    L1_SingleMu16(1,20) |  98.290(/nb) |
+|             |              [295-346] |              |                        |                        |              |
+| 180241:2266 |      [55-74], [78-78], |  27.302(/pb) |   HLT_Mu24_v12(200,35) | L1_SingleMu16(1,20,15) | 126.354(/nb) |
+|             |   [80-252], [255-328], |              |                        |                        |              |
+|             |   [331-351], [353-416] |              |                        |                        |              |
+| 180250:2267 |         [3-3], [6-82], |  41.784(/pb) |   HLT_Mu24_v12(200,35) |    L1_SingleMu16(1,15) | 148.649(/nb) |
+|             |   [84-259], [262-426], |              |                        |                        |              |
+|             |              [429-539] |              |                        |                        |              |
+| 180252:2267 |       [1-40], [42-49], |   5.030(/pb) |      HLT_Mu24_v12(200) |       L1_SingleMu16(1) |  25.152(/nb) |
+|             |                [52-79] |              |                        |                        |              |
+
+ ==  =  Total : 
+|      HLTPath | SelectedLS |     Recorded |    Effective |
+-----------------------------------------------------------
+|  HLT_Mu24_v1 |      10795 |  48.415(/pb) |  48.415(/pb) |
+| HLT_Mu24_v11 |      12983 | 765.598(/pb) |   3.452(/pb) |
+| HLT_Mu24_v12 |       1819 | 131.497(/pb) | 544.570(/nb) |
+|  HLT_Mu24_v2 |      16666 | 173.227(/pb) | 173.227(/pb) |
+|  HLT_Mu24_v3 |      35489 | 716.241(/pb) |  42.853(/pb) |
+|  HLT_Mu24_v4 |        167 |   4.481(/pb) | 149.351(/nb) |
+|  HLT_Mu24_v5 |      11720 | 254.898(/pb) |   8.623(/pb) |
+|  HLT_Mu24_v7 |      27632 | 869.718(/pb) |   7.400(/pb) |
+|  HLT_Mu24_v8 |      42754 |   2.135(/fb) |   8.945(/pb) |
+

@@ -1,0 +1,17 @@
+/ElectronVPlusJetsIDSelectionFunctor.h/1.8/Thu Aug 26 17:11:47 2010//TV00-03-24-01
+/EventSelector.h/1.2/Fri Apr 30 14:30:07 2010//TV00-03-24-01
+/Expressions.h/1.2/Mon Mar 12 16:36:34 2007//TV00-03-24-01
+/JetIDSelectionFunctor.h/1.16/Wed Dec  1 20:02:41 2010//TV00-03-24-01
+/MuonVPlusJetsIDSelectionFunctor.h/1.9/Mon Apr  4 20:13:36 2011//TV00-03-24-01
+/PFElectronSelector.h/1.3/Sun May 22 18:50:55 2011//TV00-03-24-01
+/PFJetIDSelectionFunctor.h/1.20/Wed Apr 27 20:39:42 2011//TV00-03-24-01
+/PFMuonSelector.h/1.2/Thu May  5 19:50:11 2011//TV00-03-24-01
+/PVObjectSelector.h/1.2/Thu Mar 10 02:56:47 2011//TV00-03-24-01
+/PVSelector.h/1.16/Mon Aug 22 14:01:55 2011//TV00-03-24-01
+/RunLumiSelector.h/1.5/Mon Aug  9 13:50:05 2010//TV00-03-24-01
+/Selector.h/1.13/Mon Aug  9 13:50:05 2010//TV00-03-24-01
+/SimpleCutBasedElectronIDSelectionFunctor.h/1.9/Wed Oct  6 14:13:04 2010//TV00-03-24-01
+/Variables.h/1.1/Tue Feb  6 23:11:58 2007//TV00-03-24-01
+/WPlusJetsEventSelector.h/1.12/Fri Sep  3 12:40:06 2010//TV00-03-24-01
+/strbitset.h/1.8/Tue Jan  3 22:38:26 2012//TV00-03-24-01
+D

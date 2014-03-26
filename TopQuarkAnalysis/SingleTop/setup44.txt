@@ -1,0 +1,16 @@
+
+cvs co -r V00-02-02 -d CMGTools/External  UserCode/CMG/CMGTools/External                              
+cvs co -r V00-03-05-08 CommonTools/ParticleFlow
+cvs co -r V00-04-01 CondFormats/EgammaObjects                        
+cvs co -r V06-05-01 DataFormats/PatCandidates
+cvs co -r V00-00-08 -d EGamma/EGammaAnalysisTools UserCode/EGamma/EGammaAnalysisTools
+cvs co -r V08-07-44 PhysicsTools/PatAlgos                            
+cvs co -r V03-09-18-03 PhysicsTools/PatUtils                            
+cvs co -r V08-03-16 PhysicsTools/Utilities                           
+cvs co -r V00-03-32 RecoEgamma/ElectronIdentification
+cvs co -r V03-03-07 RecoLuminosity/LumiDB
+cvs up -r 1.53 PhysicsTools/PatAlgos/python/tools/tauTools.py 
+cd EGamma/EGammaAnalysisTools/data
+cat download.url | xargs wget
+
+

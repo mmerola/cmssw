@@ -1,0 +1,25 @@
+/applyCalibration.py/1.1/Fri Apr 30 18:33:52 2010//THEAD
+/csvLumiCalc.py/1.1/Mon Oct 25 19:31:58 2010//THEAD
+/dumpFill.py/1.6/Tue Dec 18 09:51:40 2012//THEAD
+/dumpRunInfo.py/1.6/Thu Aug  5 09:57:10 2010//THEAD
+/dumpTrg.py/1.4/Tue Sep 21 14:57:17 2010//THEAD
+/dumpWBM.py/1.5/Tue Sep 21 14:57:17 2010//THEAD
+/estimatePileup.py/1.10/Tue Dec 18 09:51:41 2012//THEAD
+/estimatePileup2.py/1.6/Tue Aug  9 13:35:15 2011//THEAD
+/estimatePileup_makeJSON.py/1.4/Fri Mar 23 02:53:17 2012//THEAD
+/lumiCalc2.py/1.51/Tue Dec 18 09:51:41 2012//THEAD
+/lumiContext.py/1.16/Tue Dec 18 09:51:41 2012//THEAD
+/lumiDBFiller.py/1.17/Tue Dec 18 09:51:42 2012//THEAD
+/lumiData2.py/1.1/Tue Mar 13 19:02:54 2012//THEAD
+/lumiNorm.py/1.6/Tue Dec 18 09:51:42 2012//THEAD
+/lumiPatch.py/1.2/Fri Jul  2 20:16:59 2010//THEAD
+/lumiPlot.py/1.19/Mon Sep  3 10:18:21 2012//THEAD
+/lumiSchema.py/1.27/Mon Oct 11 17:34:08 2010//THEAD
+/lumiTag.py/1.2/Thu Jul 12 09:32:23 2012//THEAD
+/lumidb2Schema.py/1.4/Mon Dec  3 15:11:38 2012//THEAD
+/pileupCalc.py/1.4/Mon May 14 02:47:52 2012//THEAD
+/pileupReCalc_HLTpaths.py/1.4/Fri May 18 20:19:39 2012//THEAD
+/pixelLumiCalc.py/1.13/Wed Oct 10 17:08:29 2012//THEAD
+/specificLumi.py/1.27/Tue Dec 18 09:51:43 2012//THEAD
+/summaryLumi.py/1.10/Tue Dec 18 09:51:43 2012//THEAD
+D

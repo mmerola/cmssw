@@ -1,0 +1,6 @@
+lcg-cp -b -D srmv2 -T srmv2 "/tmp/mmerola/TChannel_part_1Merged.root" "srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/mmerola/SingleTop/Analysis/44XNEW/Merged/TChannel_part_1Merged.root" &
+lcg-cp -b -D srmv2 -T srmv2 "/tmp/mmerola/TChannel_part_2Merged.root" "srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/mmerola/SingleTop/Analysis/44XNEW/Merged/TChannel_part_2Merged.root" &
+lcg-cp -b -D srmv2 -T srmv2 "/tmp/mmerola/TChannel_part_3Merged.root" "srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/mmerola/SingleTop/Analysis/44XNEW/Merged/TChannel_part_3Merged.root" &
+lcg-cp -b -D srmv2 -T srmv2 "/tmp/mmerola/TbarChannel_part_3Merged.root" "srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/mmerola/SingleTop/Analysis/44XNEW/Merged/TbarChannel_part_3Merged.root" &
+lcg-cp -b -D srmv2 -T srmv2 "/tmp/mmerola/TbarChannel_part_2Merged.root" "srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/mmerola/SingleTop/Analysis/44XNEW/Merged/TbarChannel_part_2Merged.root" &
+lcg-cp -b -D srmv2 -T srmv2 "/tmp/mmerola/TbarChannel_part_1Merged.root" "srm://stormfe1.pi.infn.it:8444/srm/managerv2?SFN=/cms/store/user/mmerola/SingleTop/Analysis/44XNEW/Merged/TbarChannel_part_1Merged.root" &

@@ -1,0 +1,2 @@
+hadd -f TTBarMatchingup.root TTBarMatchingup_part_1.root TTBarMatchingup_part_2.root TTBarMatchingup_part_3.root TTBarMatchingup_part_4.root TTBarMatchingup_part_5.root &
+hadd -f TTBarMatchingdown.root TTBarMatchingdown_part_1.root TTBarMatchingdown_part_2.root TTBarMatchingdown_part_3.root TTBarMatchingdown_part_4.root TTBarMatchingdown_part_5.root &
