@@ -53,7 +53,8 @@ namespace SingleTopTChannelLepton {
     ~MonitorEnsemble(){};
     
     /// book histograms in subdirectory _directory_ 
-    void bookHistograms(DQMStore::IBooker &, edm::Run const &, edm::EventSetup const &) override ;
+    virtual void bookHistograms(DQMStore::IBooker &, edm::Run const &, edm::EventSetup const &) ; //override ;
+    virtual void analyze(const edm::Event&, const edm::EventSetup&) ; //override;
 
     /// fill monitor histograms with electronId and jetCorrections
     void fill(const edm::Event& event, const edm::EventSetup& setup);
@@ -268,11 +269,11 @@ class SingleTopTChannelLeptonDQM :  public DQMEDAnalyzer {
   
   /// do this during the event loop
   //  virtual void analyze(const edm::Event& event, const edm::EventSetup& setup) ; 
-  //  virtual void bookHistograms(DQMStore::IBooker &, edm::Run const &, edm::EventSetup const &)  override ;
+  virtual void bookHistograms(DQMStore::IBooker &, edm::Run const &, edm::EventSetup const &)  ;
   
   
  protected:
-  void analyze(const edm::Event&, const edm::EventSetup&) ; //override;
+  virtual void analyze(const edm::Event&, const edm::EventSetup&) ; //override;
   
  private:
   /// deduce object type from ParameterSet label, the label
