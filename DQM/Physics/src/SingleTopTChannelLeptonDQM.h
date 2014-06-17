@@ -13,12 +13,14 @@
 #include "DataFormats/MuonReco/interface/Muon.h"
 #include "DataFormats/Common/interface/ValueMap.h"
 #include "DataFormats/METReco/interface/CaloMET.h"
+#include "DataFormats/ParticleFlowCandidate/interface/PFCandidate.h"
 #include "JetMETCorrections/Objects/interface/JetCorrector.h"
 #include "DataFormats/EgammaCandidates/interface/GsfElectron.h"
 #include "DataFormats/VertexReco/interface/Vertex.h"
 #include "FWCore/Framework/interface/ConsumesCollector.h"
 #include "FWCore/Framework/interface/EDConsumerBase.h"
 #include "FWCore/Utilities/interface/EDGetToken.h"
+#include <DQMServices/Core/interface/DQMEDAnalyzer.h>
 
 /**
    \class   MonitorEnsemble TopDQMHelpers.h "DQM/Physics/interface/TopDQMHelpers.h"
@@ -39,7 +41,7 @@
 
 namespace SingleTopTChannelLepton {
 
-  class MonitorEnsemble {
+  class MonitorEnsemble : public DQMEDAnalyzer {
   public:
     /// different verbosity levels
     enum Level{ STANDARD, VERBOSE, DEBUG };
@@ -50,12 +52,13 @@ namespace SingleTopTChannelLepton {
     /// default destructor
     ~MonitorEnsemble(){};
     
-    /// book histograms in subdirectory _directory_
-    void book(std::string directory);
+    /// book histograms in subdirectory _directory_ 
+    void bookHistograms(DQMStore::IBooker &, edm::Run const &, edm::EventSetup const &) override ;
+
     /// fill monitor histograms with electronId and jetCorrections
     void fill(const edm::Event& event, const edm::EventSetup& setup);
 
-  private:
+  private:    
     /// deduce monitorPath from label, the label is expected
     /// to be of type 'selectionPath:monitorPath'
     std::string monitorPath(const std::string& label) const { return label.substr(label.find(':')+1); };  
@@ -80,6 +83,8 @@ namespace SingleTopTChannelLepton {
   private:
     /// verbosity level for booking
     Level verbosity_;
+
+    std::string directory_;
     /// instance label 
     std::string label_;
     /// considers a vector of METs
@@ -116,7 +121,9 @@ namespace SingleTopTChannelLepton {
     ///  6: passes conversion rejection and Isolation
     ///  7: passes the whole selection
     /// As described on https://twiki.cern.ch/twiki/bin/view/CMS/SimpleCutBasedEleID
-    int eidPattern_;
+    //int eidPattern_;
+    //the cut for the MVA Id                                                                                                                               
+    double eidCutValue_;
     /// extra isolation criterion on electron
     //    StringCutObjectSelector<reco::GsfElectron>* elecIso_;
     std::string elecIso_;
@@ -232,7 +239,7 @@ namespace SingleTopTChannelLepton {
 /// define MonitorEnsembple to be used
 //using SingleTopTChannelLepton::MonitorEnsemble;
 
-class SingleTopTChannelLeptonDQM : public edm::EDAnalyzer  {
+class SingleTopTChannelLeptonDQM :  public DQMEDAnalyzer {
  public: 
   /// default constructor
   SingleTopTChannelLeptonDQM(const edm::ParameterSet& cfg);
@@ -255,14 +262,18 @@ class SingleTopTChannelLeptonDQM : public edm::EDAnalyzer  {
 
 
 
-
   };
 
 
-
+  
   /// do this during the event loop
-  virtual void analyze(const edm::Event& event, const edm::EventSetup& setup);
-    
+  //  virtual void analyze(const edm::Event& event, const edm::EventSetup& setup) ; 
+  //  virtual void bookHistograms(DQMStore::IBooker &, edm::Run const &, edm::EventSetup const &)  override ;
+  
+  
+ protected:
+  void analyze(const edm::Event&, const edm::EventSetup&) ; //override;
+  
  private:
   /// deduce object type from ParameterSet label, the label
   /// is expected to be of type 'objectType:selectionStep'
